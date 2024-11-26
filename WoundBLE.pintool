@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ASCII"?>
+<device:XMLDevice xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:device="http://www.silabs.com/ss/hwconfig/document/device.ecore" name="pin_tool.BGM220PC22WGA" partId="mcu.arm.efr32.bg22.bgm220pc22wga" contextId="com.silabs.sdk.stack.super:4.0.2._-398863328">
+  <mode name="DefaultMode">
+    <property object="DefaultMode" propertyId="mode.diagramLocation" value="100, 100"/>
+    <property object="PORTIO" propertyId="portio.timer0.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer0.location.cc0" value="35"/>
+    <property object="PORTIO" propertyId="portio.timer1.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer1.location.cc0" value="38"/>
+    <property object="PORTIO" propertyId="portio.timer2.enable.cc0" value="Enabled"/>
+    <property object="PORTIO" propertyId="portio.timer2.location.cc0" value="19"/>
+    <property object="PTI" propertyId="ABModule.selectedRequirement" value="pti%T%SL_RAIL_UTIL_PTI%T%sl_rail_util_pti_config.h"/>
+    <property object="PTI" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER0" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER0" propertyId="channel.0.name" value=""/>
+    <property object="TIMER1" propertyId="ABModule.selectedRequirement" value="timer%T%SL_PWM_PWMB%T%sl_pwm_init_PWMB_config.h"/>
+    <property object="TIMER1" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER1" propertyId="channel.0.name" value="OUTPUT"/>
+    <property object="TIMER2" propertyId="ABModule.selectedRequirement" value="timer%T%SL_PWM_PWMC%T%sl_pwm_init_PWMC_config.h"/>
+    <property object="TIMER2" propertyId="ABPeripheral.included" value="true"/>
+    <property object="TIMER2" propertyId="channel.2.name" value="OUTPUT"/>
+  </mode>
+  <modeTransition>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.source" value="RESET"/>
+    <property object="RESET &#x2192; DefaultMode" propertyId="modeTransition.target" value="DefaultMode"/>
+  </modeTransition>
+</device:XMLDevice>
